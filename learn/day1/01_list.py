@@ -9,8 +9,8 @@ def addFruits(items):
     return newFruitList
 x=int(input("Enter a number of fruits that you want to add:\t"))
 y=addFruits(x)
-print("Your list of fruits are \n")
+print("\nYour list of fruits are \n")
 print(y)
 
 
-#Fixed the input error now need to display each input by the user
+#error is fixed and now takes input from users and prints out a list
