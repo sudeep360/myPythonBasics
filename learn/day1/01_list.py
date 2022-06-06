@@ -4,12 +4,12 @@ fruit=list()
 newFruitList=list()
 def addFruits(items):
     for i in range(items):
-        fruit=input(f"Enter fruit no{i}:\t")
-    newFruitList=fruit
+        oneAtATimeFruit=input(f"Enter fruit no{i}:\t")   
+        newFruitList.insert(i,oneAtATimeFruit)
     return newFruitList
-
 x=int(input("Enter a number of fruits that you want to add:\t"))
 y=addFruits(x)
+print("Your list of fruits are \n")
 print(y)
 
 
