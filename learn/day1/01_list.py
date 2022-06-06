@@ -11,4 +11,6 @@ def addFruits(items):
 x=int(input("Enter a number of fruits that you want to add:\t"))
 y=addFruits(x)
 print(y)
-#This code has an error for now so fix the bug after push
+
+
+#Fixed the input error now need to display each input by the user
